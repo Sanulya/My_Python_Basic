@@ -22,3 +22,11 @@ digit_3 = str(num // 100)
 num_2 = (digit_1 + digit_2 + digit_3)
 print('Перевернуте число: ', int(num_2))
 print(f'Перевірка: {int(num_2) * 2}')
+
+# additionally
+
+number = int(input('Введіть кількість секунд: '))
+second = number % 60
+hours = number // 3600
+minutes = number // 60 % 60
+print(hours, ':', minutes, ':', second)
