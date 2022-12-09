@@ -12,3 +12,13 @@ number_of_desks_1 = round(number_of_students_1 / 2)
 number_of_desks_2 = round(number_of_students_2 / 2)
 number_of_desks_3 = round(number_of_students_3 / 2)
 print(f'Всього необхідно закупити {number_of_desks_1 + number_of_desks_2 + number_of_desks_3} парт')
+
+# task 3
+
+num = int(input('Введіть трьохзначне число: '))
+digit_1 = str(num % 10)
+digit_2 = str(num // 10 % 10)
+digit_3 = str(num // 100)
+num_2 = (digit_1 + digit_2 + digit_3)
+print('Перевернуте число: ', int(num_2))
+print(f'Перевірка: {int(num_2) * 2}')
