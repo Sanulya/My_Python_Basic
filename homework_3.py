@@ -23,3 +23,4 @@ for i in range(1, N):
         break
     print(number_squared, end=' ')
 
+# task 3
