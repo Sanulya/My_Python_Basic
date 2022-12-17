@@ -24,3 +24,12 @@ for i in range(1, N):
     print(number_squared, end=' ')
 
 # task 3
+number = int(input('\nВведіть число: '))
+count_n = 0
+for i in range(1, number + 1):
+    if number % i == 0:
+        count_n += 1
+if count_n == 2:
+    print(f'Число {number} є простим числом')
+else:
+    print(f'Число {number} не є простим числом')
