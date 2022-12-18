@@ -39,8 +39,6 @@ else:
 mushroom_quantity = int(input('Введіть кількість грибів: '))
 if mushroom_quantity == 1 or mushroom_quantity % 10 == 1 or mushroom_quantity % 100 == 1:
     print(f'Маша знайшла у лісі {mushroom_quantity} гриб')
-# elif 1 < mushroom_quantity < 5 or 1 < mushroom_quantity % 10 < 5 or 1 < mushroom_quantity % 100 < 5:
-#     print(f'Маша знайшла у лісі {mushroom_quantity} гриба')
 elif 4 < mushroom_quantity < 20 or 4 < mushroom_quantity % 10 < 20 or 4 < mushroom_quantity % 100 < 20:
     print(f'Маша знайшла у лісі {mushroom_quantity} грибів')
 elif  mushroom_quantity % 10 == 0 or mushroom_quantity % 100 == 0:
