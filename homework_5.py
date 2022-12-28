@@ -47,3 +47,11 @@ Li[num::] = Li[(num + 1)::]
 Li.pop()
 print('Li', Li)
 
+print('task_5')
+List = [random.randint(1, 100) for i in range(10)]
+print('List', List)
+k = int(input('Введіть індекс елемента (число до 9): '))
+c = int(input('Введіть новий елемента (число до 100): '))
+List[(k + 1)::] = List[k::]
+List[k] = c
+print(List)
