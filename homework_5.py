@@ -4,5 +4,6 @@ import random
 Li = [random.randint(1, 300) for i in range(30)]
 for element in Li:
     if element > 100:
-        print(Li[element], end=' ')
+        print(element, end=' ')
+print()
 print(Li)
