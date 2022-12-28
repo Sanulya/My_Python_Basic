@@ -2,11 +2,10 @@ print('task_1')
 import random
 
 my_List = [random.randint(1, 300) for i in range(30)]
+print('my_List', my_List)
 for element in my_List:
     if element > 100:
         print(element, end=' ')
-print()
-print('my_List', my_List)
 print()
 
 print('task_2')
@@ -38,6 +37,7 @@ for element in result_list:
     if element not in unique_numbers:
         unique_numbers.append(element)
 print('unique_numbers', unique_numbers)
+print()
 
 print('task_4')
 Li = [random.randint(1, 100) for i in range(10)]
@@ -46,6 +46,7 @@ num = int(input('Введіть число до 9: '))
 Li[num::] = Li[(num + 1)::]
 Li.pop()
 print('Li', Li)
+print()
 
 print('task_5')
 List = [random.randint(1, 100) for i in range(10)]
@@ -54,4 +55,6 @@ k = int(input('Введіть індекс елемента (число до 9):
 c = int(input('Введіть новий елемента (число до 100): '))
 List[(k + 1)::] = List[k::]
 List[k] = c
-print(List)
+print('List', List)
+List.append(77)
+print('List', List)
