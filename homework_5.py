@@ -1,4 +1,4 @@
-# task_1
+print('task_1')
 import random
 
 my_List = [random.randint(1, 300) for i in range(30)]
@@ -9,7 +9,7 @@ print()
 print('my_List', my_List)
 print()
 
-# task_2
+print('task_2')
 my_results = []
 for element in my_List:
     if element > 100:
