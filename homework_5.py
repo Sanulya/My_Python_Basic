@@ -24,3 +24,14 @@ if len(my_List_1) < 2:
 else:
     my_List_1.append(my_List_1[-1] + my_List_1[-2])
 print('my_List_1', my_List_1)
+
+# task_6
+List_1 = [random.randint(1, 20) for i in range(7)]
+List_2 = [random.randint(1, 20) for i in range(5)]
+result_list = List_1 + List_2
+print(result_list)
+unique_numbers = []
+for element in result_list:
+    if element not in unique_numbers:
+        unique_numbers.append(element)
+print('unique_numbers', unique_numbers)
