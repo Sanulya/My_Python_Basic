@@ -1,5 +1,4 @@
 # task_11
-my_str = 'Создать список в который поместить те символы, которые встречаются только один раз'
-my_set = set(my_str)
-print(list[my_set])
+my_str = 'создать список'
+print(list[set(my_str)])
 
